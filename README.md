@@ -1,7 +1,7 @@
-Employee Attendance Register
+# Employee Attendance Register
 A Spring Boot web service for managing employee attendance in a high-tech medical organization. This application tracks employee presence, absence, and leave details to support payroll processing and reporting.
 
-Features
+# Features
 Add and update employee records
 
 Classify employees as MEDICAL or NON-MEDICAL
@@ -24,7 +24,7 @@ Well-structured response handling with custom ApiResponse
 
 Exception handling with GlobalExceptionHandler
 
-Technologies Used
+# Technologies Used
 Java 17
 
 Spring Boot 3.5.x
@@ -37,7 +37,7 @@ Maven
 
 Lombok
 
-Swagger (SpringDoc)
+Postman to  test endpoints
 
 JUnit 5 (for testing)
 
