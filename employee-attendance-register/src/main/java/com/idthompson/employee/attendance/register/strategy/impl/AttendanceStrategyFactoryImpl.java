@@ -33,8 +33,6 @@ public class AttendanceStrategyFactoryImpl implements AttendanceStrategyFactory 
                 strategyMap.put(AttendanceType.ABSENCE, strategy);
             }
         }
-
-        // Optional: log what was loaded
         strategyMap.forEach((type, strat) ->
                 System.out.println("Strategy registered: " + type + " -> " + strat.getClass().getSimpleName()));
     }
