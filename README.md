@@ -63,17 +63,19 @@ Use Postman to test the API endpoints. Below are sample endpoints:
 
 # Method	Endpoint	Description
 
-POST	/api/employees	Add a new employee
+/api/employees	POST	Add employee
 
-GET	/api/employees	List all employees
+/api/employees/{id}	PUT	Modify employee
 
-GET	/api/employees/{id}	Get employee by ID
+/api/employees	GET	List all employees
 
-GET	/api/employees?department=X	Filter employees by department
+/api/employees/department	GET	Filter employees by department
 
-POST	/api/attendance/register	Register employee attendance
+/api/departments	GET	List departments
 
-GET	/api/attendance/{employeeId}	View attendance by employee and date
+/api/attendance	POST	Register attendance
+
+/api/attendance/register	GET	View attendance by date range
 
 # Docker
 **Build and Run with Docker Compose**
