@@ -62,11 +62,17 @@ Access the app
 Use Postman to test the API endpoints. Below are sample endpoints:
 
 # Method	Endpoint	Description
+
 POST	/api/employees	Add a new employee
+
 GET	/api/employees	List all employees
+
 GET	/api/employees/{id}	Get employee by ID
+
 GET	/api/employees?department=X	Filter employees by department
+
 POST	/api/attendance/register	Register employee attendance
+
 GET	/api/attendance/{employeeId}	View attendance by employee and date
 
 # Docker
